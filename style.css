@@ -1,0 +1,787 @@
+:root {
+  --pink: #f14e95;
+  --bg: #0a0a0a;
+  --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
+}
+
+body {
+  font-size: 1.2rem;
+  font-family: 'Work Sans', sans-serif;
+  min-height: 4000px;
+  /* background-image: url(/img/WhatsApp\ Image\ 2024-02-07\ at\ 14.39.44.jpeg);
+  
+  background-size: cover;
+  background-position: center; */
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(
+    img/BS\ \(323\ of\ 508\).jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  /* filter: grayscale(); */
+
+}
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+}
+
+.hero h1,
+.hero h4,
+.hero p {
+  text-shadow: var(--shadow);
+  /* margin-top: 5%; */
+}
+
+.hero h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 6rem;
+  /* margin-top: 310px;
+  margin-bottom: 320px; */
+}
+
+.hero h4 {
+  font-size: 1.6rem;
+  /* margin-top: 100px;
+  margin-bottom: 10%; */
+}
+
+.hero p {
+  font-size: 1.4rem;
+  margin-top: 350px;
+}
+
+.hero a {
+  color: var(--pink);
+  background-color: white;
+  box-shadow: var(--shadow);
+}
+
+.hero a:hover {
+  background-color: var(--pink);
+  color: white;
+}
+.hero1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(/img/BS\ \(330\ of\ 508\).jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  filter: grayscale();
+
+}
+#hero1 {
+  background-image: url(''); /* Ganti dengan URL gambar salju */
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero1 {
+  position: relative;
+  min-height: 100vh;
+}
+
+.hero1 h1,
+.hero1 h4,
+.hero1 p {
+  text-shadow: var(--shadow);
+  margin-top: 20%;
+}
+
+.hero1 h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 6rem;
+  /* margin-top: 310px;
+  margin-bottom: 320px; */
+}
+
+.hero1 h4 {
+  font-size: 1.6rem;
+  /* margin-top: 100px;
+  margin-bottom: 10%; */
+}
+
+.hero1 p {
+  font-size: 1.4rem;
+  margin-top: 350px;
+}
+
+.hero1 a {
+  color: var(--pink);
+  background-color: white;
+  box-shadow: var(--shadow);
+}
+
+.hero1 a:hover {
+  background-color: var(--pink);
+  color: white;
+}
+
+
+.mynavbar {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  backdrop-filter: blur(4px);
+}
+
+.mynavbar .offcanvas {
+  height: 100vh;
+}
+
+.mynavbar .navbar-brand,
+.mynavbar .offcanvas-title {
+  font-family: 'Sacramento', cursive;
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+.mynavbar .nav-link {
+  text-transform: uppercase;
+}
+.home{
+  margin-bottom: 15px;
+  background-image: url(/img);
+}
+.home1 {
+  background-image: 
+  
+  
+  
+  url(img/bg.png);
+  background-size: cover;
+  min-height: 100vh;
+  margin-top: -6rem;
+  padding-top: 15rem;
+  padding-bottom: 5rem;
+ 
+}
+
+.home h2,
+.info h2,
+.story h2,
+.gallery h2,
+.rsvp h2,
+.gifts h2 {
+  color: var(--pink);
+  font-family: 'Sacramento';
+  font-size: 5rem;
+  font-weight: bold;
+  /* gap: 10px; */
+ 
+}
+
+.home h3 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  margin-bottom: 10px;
+}
+
+.home p {
+  font-size: 2rem;
+  color: #564b4b;
+  margin-bottom: 10px;
+}
+.home p1{
+  margin-top: 50px;
+  font-size: 2rem;
+  color: #000000;
+}
+
+.home .couple {
+  margin-top: 100px;
+}
+
+.home .couple h3 {
+  font-family: 'Austhina';
+  font-size: 3.5rem;
+  color: var(--pink);
+}
+
+.home .couple img {
+  width: 100%;
+}
+
+.home .heart {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(65px);
+}
+
+.home .heart i {
+  margin: auto;
+  color: var(--pink);
+}
+
+.info {
+  background-color: var(--white);
+  /* background-image: url(/img/WhatsApp\ Image\ 2024-02-07\ at\ 14.26.57.jpeg);
+  background-size: cover;
+  background-position: center; */
+  color: rgb(0, 0, 0);
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+  margin-top: 100px;
+}
+
+.info .alamat {
+  font-size: 1.5rem;
+}
+
+.info .description {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.info .card {
+  background-color: rgb(255, 255, 255) !important;
+  color: rgb(0, 0, 0) !important;
+  border: 1px solid #e2156a;
+}
+
+.info .card-header {
+  border-bottom: 1px solid #e2156a;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: medium;
+}
+
+.info .card-body {
+  font-size: 1.9rem;
+}
+
+.info .card-footer {
+  border-top: 1px solid #e2156a;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+
+.gallery,
+.rsvp,
+.gifts {
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+  background-color: #fff;
+}
+#bg-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -1;
+  filter: brightness(50%);
+}
+.story{
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+  background-image: url(/img/WhatsApp\ Image\ 2024-02-07\ at\ 14.26.57.jpeg);
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+.story span,
+.gallery span,
+.gifts span {
+  text-transform: uppercase;
+  color: #666;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  display: block;
+  margin-bottom: 1rem;
+  
+}
+
+.story p,
+.gallery p,
+.rsvp p,
+.gifts p {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.timeline {
+  list-style: none;
+  padding: 1.4rem 0;
+  margin-top: 1rem;
+  position: relative;
+}
+
+.timeline::before {
+  content: '';
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  width: 1px;
+  background-color: #ccc;
+  left: 50%;
+}
+
+.timeline li {
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.timeline li::before,
+.timeline li::after {
+  content: '';
+  display: table;
+}
+
+.timeline li::after {
+  clear: both;
+}
+
+.timeline li .timeline-image {
+  width: 160px;
+  height: 160px;
+  background-color: #ccc;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.timeline li .timeline-panel {
+  width: 40%;
+  float: left;
+  border: 1px solid #ccc;
+  padding: 2rem;
+  position: relative;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.timeline li .timeline-panel::before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  border-top: 15px solid transparent;
+  border-left: 15px solid #ccc;
+  border-right: 0 solid #ccc;
+  border-bottom: 15px solid transparent;
+  top: 80px;
+  right: -15px;
+}
+
+.timeline li .timeline-panel::after {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  border-top: 14px solid transparent;
+  border-left: 14px solid #fff;
+  border-right: 0 solid #fff;
+  border-bottom: 14px solid transparent;
+  top: 81px;
+  right: -13px;
+}
+
+.timeline li.timeline-inverted .timeline-panel {
+  float: right;
+}
+
+.timeline li.timeline-inverted .timeline-panel::before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+
+.timeline li.timeline-inverted .timeline-panel::after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -13px;
+  right: auto;
+}
+
+.gallery {
+  background-color: #ffffff;
+}
+
+.rsvp {
+  background-color: var(--white);
+  /* background-image: url(/img/BS\ \(323\ of\ 508\).jpg); */
+  background-size: cover;
+  background-position: center;
+}
+
+.rsvp h2 {
+  font-size: 5rem;
+}
+
+.rsvp p {
+  color: rgb(0, 0, 0);
+}
+
+.rsvp form label {
+  color: rgb(3, 2, 2);
+}
+
+.rsvp button {
+  background-color: var(--pink);
+  color: rgb(0, 0, 0);
+  border: 10px solid var(--pink);
+  height: 5vh;
+  width: 50%;
+
+}
+
+.rsvp button:hover {
+  background-color:rgb(166, 41, 122);
+  color: var(--pink);
+  border: 1px solid rgb(166, 41, 122);
+}
+
+footer {
+  padding: 3rem;
+  background-color: var(--white);
+  color: rgb(0, 0, 0);
+}
+
+footer a {
+  color: var(--bg);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: rgb(0, 0, 0);
+}
+
+footer li {
+  list-style: none;
+  display: inline;
+  margin: 0.5rem;
+}
+
+.audio-icon-wrapper {
+  width: 4rem;
+  height: 4rem;
+  font-size: 4rem;
+  position: fixed;
+  bottom: 2.5rem;
+  right: 2rem;
+  cursor: pointer;
+  color: white;
+  opacity: 0.5;
+  mix-blend-mode: difference;
+  animation: rotating 4s linear infinite;
+  transform-origin: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Media Query */
+/* Extra large */
+@media (max-width: 1200px) {
+  .home .heart {
+    transform: translateX(-50%) translateY(45px);
+  }
+}
+
+/* laptop */
+@media (max-width: 992px) {
+  html {
+    font-size: 75%;
+  }
+
+  .simply-countdown > .simply-section {
+    padding: 70px;
+  }
+
+  .home .heart {
+    display: none;
+  }
+
+  .timeline::before {
+    left: 60px;
+  }
+
+  .timeline li .timeline-image {
+    left: 15px;
+    margin-left: 45px;
+    top: 16px;
+  }
+
+  .timeline li .timeline-panel {
+    width: calc((100% - 200px));
+    float: right;
+  }
+
+  .timeline li .timeline-panel::before {
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -15px;
+    right: auto;
+  }
+
+  .timeline li .timeline-panel::after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -13px;
+    right: auto;
+  }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 65%;
+  }
+
+  .simply-countdown > .simply-section {
+    padding: 60px;
+    margin: 5px;
+  }
+
+  .mynavbar .nav-link {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .sticky-top {
+    overflow: hidden;
+  }
+
+  .timeline li .timeline-image {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+/* mobile phone */
+@media (max-width: 576px) {
+  html {
+    font-size: 60%;
+  }
+
+  .simply-countdown > .simply-section {
+    padding: 45px;
+    margin: 3px;
+  }
+
+  .timeline li .timeline-image {
+    width: 80px;
+    height: 80px;
+  }
+
+  .timeline li .timeline-panel {
+    width: 65%;
+    transform: translateX(-20px);
+  }
+
+  .timeline li .timeline-panel::before {
+    top: 30px;
+  }
+
+  .timeline li .timeline-panel::after {
+    top: 31px;
+  }
+}
+.card-video {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  width: 100%; /* Set the width to 100% to make it responsive */
+  padding-top: 56.25%; /* 16:9 aspect ratio (h/w * 100) */
+  margin-bottom: 0; /* Remove bottom margin */
+}
+
+.container h2 {
+  color: var(--pink);
+  font-family: 'Sacramento';
+  font-size: 5rem;
+  font-weight: bold;
+  margin-top: 10%;
+}
+
+.card-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Set the width to 100% to fill the container */
+  height: 100%; /* Set the height to 100% to fill the container */
+  border: 0; /* Remove border */
+}
+
+.photo-gallery {
+  padding-top: 0; /* Remove top padding */
+  padding-bottom: 8rem; /* Add bottom padding */
+  background-color: #fff; /* Set background color */
+}
+@keyframes fall {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+}
+.slide-left {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.slide-left.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+.snowflake {
+  position: absolute;
+  top: -50px; /* Mulai dari luar elemen di bagian atas */
+  width: 10px;
+  height: 10px;
+  background-color: white; /* Warna salju */
+  border-radius: 50%;
+  animation: snowfall linear infinite;
+}
+
+@keyframes snowfall {
+  0% {
+    transform: translateY(-100px); /* Mulai dari posisi atas */
+  }
+  100% {
+    transform: translateY(100vh); /* Akhir di luar layar */
+  }
+}
+.container1p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  border-top: 2px solid #e2156a;
+  border-bottom: 2px solid #e2156a;
+  padding: 20px; /* Tambahkan padding di sini */
+}
+.card1 {
+  width: 100%;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  background-image: url(img/WhatsApp\ Image\ 2024-02-07\ at\ 14.39.44.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.card1 img {
+  width: 100%;
+  border-radius: 5px;
+}
+.card1 p {
+  text-align: center;
+  font-family: 'montserrat';
+  font-size: medium;
+}
+.card1 h2{
+  margin-top: 10%;
+  font-size: 26px; /* Ubah ukuran teks sesuai kebutuhan Anda */
+  font-family: 'playful', cursive; /* Ganti dengan jenis font playful yang Anda inginkan */
+  margin-bottom: 10px;
+}
+.story h3{
+  color: #333;
+  font-size: 30px; /* Ubah ukuran teks sesuai kebutuhan Anda */
+  font-family: 'montserrat', cursive; /* Ganti dengan jenis font playful yang Anda inginkan */
+  /* margin-top: 100%; */
+  text-align: center;
+
+}
+
+.card-box {
+  /* background-color: rgba(220, 0, 0, 0.8); Warna latar belakang dengan transparansi */
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid #ff34b1; /* Border atau garis tepi */
+}
+
+
+
+.card-box p {
+  color: #000000;
+}
+.card-box {
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid #ff34b1;
+}
+
+.card-box .heroo {
+  position: relative;
+  min-height: 300px; /* Sesuaikan dengan kebutuhan */
+  overflow: hidden; /* Menambahkan overflow */
+}
+
+.card-box .heroo h1 {
+  font-size: 5rem; /* Sesuaikan dengan kebutuhan */
+  margin-top: 50px; /* Sesuaikan dengan kebutuhan */
+}
+.card-box .heroo p {
+  font-size: 1.5rem; /* Sesuaikan dengan kebutuhan */
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.card-box .hero img {
+  width: 100%; /* Sesuaikan dengan kebutuhan */
+  height: 50vh; /* Sesuaikan dengan kebutuhan */
+  border-radius: 10px; /* Sesuaikan dengan kebutuhan */
+  margin-top: 7%; /* Sesuaikan dengan kebutuhan */
+  margin-bottom: 5px;
+}
+
+.card-box button {
+  margin-top: 20px; /* Sesuaikan dengan kebutuhan */
+  padding: 10px 20px; /* Sesuaikan dengan kebutuhan */
+  font-size: 1.5rem; /* Sesuaikan dengan kebutuhan */
+  background-color: var(--pink); /* Sesuaikan dengan warna yang Anda inginkan */
+  color: white; /* Sesuaikan dengan warna yang Anda inginkan */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 75%;
+  height: 6vh;
+}
+
+.card-box button:hover {
+  background-color: rgb(166, 41, 122); /* Sesuaikan dengan warna yang Anda inginkan */
+}
